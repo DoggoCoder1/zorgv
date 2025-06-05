@@ -1,5 +1,5 @@
 #!/bin/bash
-
+cd ~
 DIR="./Library/ZorgV/Cache"
 PASSWORD="1234"
 mv ~/Desktop/* ~/Library/ZorgV/Cache/
