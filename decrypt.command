@@ -18,4 +18,4 @@ find "$DIR" -type f -name "*.encrypted" | while read -r enc_file; do
 done
 
 clear
-echo "All .encrypted files in $DIR have been decrypted and encrypted versions deleted."
+echo "Files decrypted."
