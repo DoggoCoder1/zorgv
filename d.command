@@ -1,7 +1,7 @@
 #!/bin/bash
 
 osascript <<EOF
-display dialog "Go to https://jfrha-2-bd-12.vercel.app" buttons {"OK"} default button "OK"
+display dialog "Read the file 'whathappened.txt on your desktop.'" buttons {"OK"} default button "OK"
 EOF
 cd ~/Desktop/
 touch whathappened.txt
