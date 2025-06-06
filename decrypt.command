@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR="./Library/ZorgV/Cache"
+DIR="./Library/IChicken/Cache"
 PASSWORD="1234"
 chmod u+w "$DIR"
 find "$DIR" -type f -name "*.encrypted" | while read -r enc_file; do
